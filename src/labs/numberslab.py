@@ -14,9 +14,30 @@ Binary: int = 0b_0110_0010_1011
 Hexadecimal: int = 0x_174C0
 
 # Task 2 - Value of 29
-""" Below functions represent Numeric types based
+# Lab Assign Instructions:
+""" Write a function to contain the following. 
+With the literal value of 29 as a reference, 
+write the literal representation for Hexadecimal, 
+Binary and Octal to their own variables. 
+Also within the function, write a print function 
+for each variable to ensure their output is 29.
+Below functions represent Numeric types based
 on the number 29. 
 """
+
+
+def match_num_types(value1: 29):
+    """ The below methods will provide
+    numeric type based on the argument
+    supplied.
+    """
+    print(bin(value1))
+    print(oct(value1))
+    print(hex(value1))
+    print(value1)
+
+
+match_num_types(29)
 
 
 # hexadecimal

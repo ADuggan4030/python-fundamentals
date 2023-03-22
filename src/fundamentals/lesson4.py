@@ -27,7 +27,7 @@ juliet: float = -98.6E2
 """ Numeric Types - Binary, Decimal, Octal & Hexadecimal """
 
 
-def numeric_types(value1: int):
+def numeric_types(value1: 43):
     """ The below methods will provide the numeric
     type based on the argument supplied
     """
@@ -140,7 +140,6 @@ def cast_str():
 
 cast_str()
 
-
 """ Getting input from the user
 The input function always returns a string, so type conversion
 needs to be done for number values.
@@ -156,5 +155,3 @@ def basic_input_demo():
 
 
 basic_input_demo()
-
-

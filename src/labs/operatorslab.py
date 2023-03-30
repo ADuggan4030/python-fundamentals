@@ -5,8 +5,8 @@
 
 def math_order():
     """ This function demonstrates order of operation """
-    pem1 = 10 + (32 * 12) // 3
-    pem2 = 40 + (32 * 12) // 3
+    pem1 = 10 + (32 * 12) / 3
+    pem2 = (10 +32) * 12 / 3
     print(f"With () {pem1}, without {pem2}")
 
 
@@ -28,7 +28,7 @@ def assign_operator(digit1, digit2):
     print(digit1)
 
 
-assign_operator(5, 25)
+# assign_operator(5, 25)
 
 # Task 3
 """ This function uses Comparison Operators: 
@@ -42,4 +42,4 @@ def comparison_oper(digit2, digit3):
     print(f'{digit2} != {digit3} = {digit2 != digit3}')
 
 
-comparison_oper(21, 21)
+# comparison_oper(21, 21)

@@ -18,28 +18,33 @@ get_neg_value()
 
 # Task 2
 method_lab_assign: str = ' This statement has empty spaces '
+print(method_lab_assign.strip)
+print(method_lab_assign.upper)
+print(method_lab_assign.find('eme'))
+print(method_lab_assign.count('s'))
 
 
-def get_strip_value():
-    print(method_lab_assign.strip())
+
+# def get_strip_value():
+   # print(method_lab_assign.strip())
 
 
-def get_upper_value():
-    print(method_lab_assign.upper())
+# def get_upper_value():
+   # print(method_lab_assign.upper())
 
 
-def get_find_value():
-    print(method_lab_assign.find('eme'))
+# def get_find_value():
+    # print(method_lab_assign.find('eme'))
 
 
-def get_count_value():
-    print(method_lab_assign.count('s'))
+# def get_count_value():
+    # print(method_lab_assign.count('s'))
 
-
-get_strip_value()
-get_upper_value()
-get_find_value()
-get_count_value()
+#  jfdlfjdkf
+# get_strip_value()
+# get_upper_value()
+# get_find_value()
+# get_count_value()
 
 
 # Task 3 - Jack & Jill Poem

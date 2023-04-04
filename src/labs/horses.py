@@ -37,7 +37,7 @@ class Horse:
 
 
 def main():
-    our_horse = Horse('Appaloosa', 'Mesomorph', 'Brave')
+    our_horse = Horse('spotted', 'Mesomorph', 'Brave')
     our_horse.fur_function()
     print(our_horse.body)
 

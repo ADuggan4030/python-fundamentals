@@ -1,6 +1,8 @@
 """ This lab is a base example for OOP -- Task 1 and Task 2 """
 
 
+# Inheritance and Polymorphism Lab
+
 class Horse:
     def __init__(self, fur_color: str, body_style: str,
                  personality_type: str):
@@ -36,10 +38,41 @@ class Horse:
         print(f'The {self._fur_color} horse is spirited.')
 
 
+class Takhi(Horse):
+    def __init__(self, fur_color: str, body_style: str,
+                 personality_type: str, location: str, movement: str):
+        super().__init__(fur_color, body_style, personality_type)
+        self._location = location
+        self._movement = movement
+
+    @property
+    def location(self) -> str:
+        return self._location
+
+    @location.setter
+    def location(self, location: str):
+        self._location = location
+
+    @property
+    def movement(self) -> str:
+        return self._movement
+
+    @movement.setter
+    def movement(self, movement: str):
+        self._movement = movement
+
+    def movement(self):
+        print(f' The Takhi is a {self._movement} creature.')
+
+
 def main():
     our_horse = Horse('spotted', 'Mesomorph', 'Brave')
     our_horse.fur_function()
     print(our_horse.body)
+    my_takhi = Takhi('always brown gray gradient color', 'muscular', 'wild', 'Mongolia',
+                     'nomadic')
+    my_takhi.fur_function()
+    my_takhi.movement()
 
 
 if __name__ == '__main__':

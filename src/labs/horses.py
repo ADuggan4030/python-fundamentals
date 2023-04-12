@@ -61,8 +61,11 @@ class Takhi(Horse):
     def movement(self, movement: str):
         self._movement = movement
 
-    def movement(self):
+    def roaming(self):
         print(f' The Takhi is a {self._movement} creature.')
+
+    def fur_function(self):
+        print(f' The {self._fur_color} Takhi is always the same colors.')
 
 
 def main():
@@ -72,7 +75,7 @@ def main():
     my_takhi = Takhi('always brown gray gradient color', 'muscular', 'wild', 'Mongolia',
                      'nomadic')
     my_takhi.fur_function()
-    my_takhi.movement()
+    my_takhi.roaming()
 
 
 if __name__ == '__main__':

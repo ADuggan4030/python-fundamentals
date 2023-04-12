@@ -65,7 +65,7 @@ class Takhi(Horse):
         print(f' The Takhi is a {self._movement} creature.')
 
     def fur_function(self):
-        print(f' The {self._fur_color} Takhi is always the same colors.')
+        print(f' The {self._fur_color} is signature of the Takhi.')
 
 
 def main():
